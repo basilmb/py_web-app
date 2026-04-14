@@ -1,0 +1,58 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  background: #1e293b;
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Paragraph */
+p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #94a3b8;
+}
+
+/* List */
+ul {
+  list-style: none;
+}
+
+li {
+  background: #334155;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+li:hover {
+  background: #475569;
+  transform: scale(1.03);
+}
